@@ -35,6 +35,7 @@ scmVersion {
 	]
 
 	repository {
+		customKey = project.file(ietReleaseKeyFile)
 	}
 }
 
