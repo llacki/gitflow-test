@@ -61,3 +61,7 @@ task('createReleaseCandidate') {
         tasks.release.execute()
     }
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.6'
+}
